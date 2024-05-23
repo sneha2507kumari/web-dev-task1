@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            flex: 1;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .team-section {
+            margin: 2em 0;
+        }
+
+        .team-member {
+            background-color: #f0f0f0;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 150px;
+        }
+
+        .team-member img {
+            width: 50px; 
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .member-details h6 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .member-details p {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #777;
+        }
+
+       
+        .leadership-team { background-color: #ffcc80; }
+        .development-team { background-color: #81c784; }
+        .sales-marketing-team { background-color: #64b5f6; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Company Name</h1>
+    </header>
+    <main>
+        <section class="team-section">
+            <h2>Meet Our Team</h2>
+            <p>Welcome to your Company,where a dedicated team of professional works together to bring innovation,creativity and expertise to software industry get to know the individual who make our company thrive</p>
+            <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+            <h3 class="leadership-team">Leadership/Management Team</h3>
+            <div class="founder1">
+                <div class="team-member">
+                    <img src="member.jpg" alt="Founder">
+                    <div class="member-details">
+                        <h6>Founder Name</h6>
+                        <p><i>Founder CEO</i></p>
+                    </div>
+                </div>
+                
+               
+            </div>
+            <h3 class="development-team">Development Team</h3>
+           
+            <div class="development">
+                <div class="team-member">
+                    <img src="member.jpg" alt="Developer">
+                    <div class="member-details">
+                        <h6>Developer Name</h6>
+                        <p><i>Team Lead, SE</i></p>
+                    </div>
+                </div>
+                
+            </div>
+            <h3 class="sales-marketing-team">Sales and Marketing Team</h3>
+           
+            <div class="sales-marketing">
+                <div class="team-member">
+                    <img src="member.jpg" alt="Sales Officer">
+                    <div class="member-details">
+                        <h6>Sales Officer</h6>
+                        <p><i>Sales Officer</i></p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
